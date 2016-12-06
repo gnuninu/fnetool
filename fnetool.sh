@@ -837,19 +837,19 @@ if [[ $SA_SERVER_VER == 3 || $SA_SERVER_VER == 4 ]]; then
 		main_menu
             case $opt in
             0) clear;
-				echo -e "Option 0 Selected - Reset Core/Archiver license service";
-				reset_device_lic_10_4;
-				;;
-			1) clear;
+		echo -e "Option 0 Selected - Reset Core/Archiver license service";
+		reset_device_lic_10_4;
+		;;
+	    1) clear;
                 echo -e "Option 1 Selected - Reset ESA/Malware license services";
                 reset_esa_malware10.4
                 ;;
-			2) clear;
-				echo -e "Option 2 Selected - Reset FNEServer";
+	     2) clear;
+		echo -e "Option 2 Selected - Reset FNEServer";
                 reset_fneserver_lic_10.4;
                 ;;
             3) clear;
-				echo -e "Option 2 Selected - Change Server ID";
+		echo -e "Option 2 Selected - Change Server ID";
                 server_id_mac_issue
                 ;;
             4) clear;
@@ -878,12 +878,12 @@ elif [[ $SA_SERVER_VER == 5 || $SA_SERVER_VER == 6 ]]; then
 		else
 		main_menu
             case $opt in
-			0) clear;
+	    0) clear;
                 echo -e "Option 0 Selected - Remove Entitlements";
                 mongo_remove;
                 ;;
-			1) clear;
-				echo -e "Option 1 Selected - Change Server ID";
+	    1) clear;
+		echo -e "Option 1 Selected - Change Server ID";
                 server_id_mac_issue;
                 ;;
             2) clear;
@@ -892,9 +892,9 @@ elif [[ $SA_SERVER_VER == 5 || $SA_SERVER_VER == 6 ]]; then
                 ;;
             3) clear;
                 echo -e "Option 3 Selected - Display entitlements";
-				mongo_entitlements_coll;
-				;;
-			4) clear;
+		mongo_entitlements_coll;
+		;;
+	    4) clear;
                 echo -e "Option 4 Selected - Collect Logs";
 				debug_logs_10.5;
                 ;;
