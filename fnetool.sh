@@ -5,7 +5,7 @@
 # DATE: 06/12/2016
 # REV: 0.1
 #
-# PLATFORM: Linux Centos (Netwitness L&P  10.3, 10.4 ,10.5, 10.6)
+# PLATFORM: Linux Centos 6.x (Netwitness L&P  10.3, 10.4 ,10.5, 10.6)
 #
 # PURPOSE: Troubleshooting tool for Security Analytics/Netwitness P&L licensing
 # LICENSE: GNU Public License v2 (http://gnu.org/licenses/)
